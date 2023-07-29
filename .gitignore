@@ -1,0 +1,9 @@
+# pyenv dir
+automate-jobmatching/
+
+# config file
+*.cfg
+
+# pycache
+__pycache__/
+*.pyc
