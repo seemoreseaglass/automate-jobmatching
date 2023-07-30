@@ -10,3 +10,6 @@ __pycache__/
 
 # glove embeddings
 glove.42B.300d.txt
+
+# Scrapy setting.py
+scrapy_jd_green/scrapy_jd_green/settings.py
