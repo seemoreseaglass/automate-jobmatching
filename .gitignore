@@ -7,3 +7,6 @@ automate-jobmatching/
 # pycache
 __pycache__/
 *.pyc
+
+# glove embeddings
+glove.6B.50d.txt
