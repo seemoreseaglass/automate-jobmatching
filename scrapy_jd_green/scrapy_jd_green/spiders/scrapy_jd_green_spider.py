@@ -1,9 +1,15 @@
 import scrapy
 from scrapy_jd_green.items import JobDescription
-from scrapy_jd_green.settings import AUTH_TOKEN, USER, PWD
+import json
 
-print(USER)
-print(PWD)
+# Read the configuration from config.json
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
+email = config["email"]
+password = config["password"]
+print(email)
+print(password)
+
 class ScrapyJdGreenSpiderSpider(scrapy.Spider):
     name = "scrapy_jd_green_spider"
 
@@ -23,8 +29,8 @@ class ScrapyJdGreenSpiderSpider(scrapy.Spider):
         # Create a form data dictionary with the required information
         formdata = {
             'authenticity_token': authenticity_token,
-            'user[mail]': USER,
-            'user[password]': PWD
+            'user[mail]': email,
+            'user[password]': password
         }
         # Submit a POST request to the login page
         return [scrapy.FormRequest("https://www.green-japan.com/login", formdata=formdata, callback=self.logged_in)]
