@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>もう一度操作をやり直してください｜転職は【Green】優良企業、IT系、Web業界の求人に強い転職サイト グリーン</title>
+  <meta name="Description" content="転職を考える方のための転職・求人情報サイト Green(グリーン)。転職情報の収集から求人応募まで、あなたの効率的な転職活動をサポートします。" />
+  <meta name="Keywords" content="転職,求人,転職サイト,求人情報,中途採用,Green,グリーン,エンジニア,Webディレクター,Web業界,IT業界" />
+  <link rel="stylesheet" href="/static_assets/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/static_assets/css/footer.css" type="text/css" />
+  <link rel="stylesheet" href="/static_assets/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="/static_assets/css/er.css" type="text/css" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="header" style="overflow: hidden;">
+      <div id="header_content" style="padding-bottom:10px;">
+        <h1 id="hd_h1" style="margin-bottom:10px;"><a href="/" title="転職サイトGreen">転職サイトGreen</a></h1>
+        <p id="hd_p">～成長業界でキャリアをつくろう～<br /><span>IT・Web企業が最も多く利用する転職サイト</span></p>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="content_cont">
+        <div id="er_box">
+          <p style="font-size:20px;margin-top: 60px;" >
+            <span style="font-size:32px;padding-left:40px;">大変申し訳ございません。</span>
+            <br>
+            ブラウザの設定画面からGreenのサイトのcookieを削除していただいた後、<br />
+            再度操作をお試しください。<br>
+            <span style="display:block;margin-top:16px;font-size:inherit;">上記で解決しない場合は、info@green-japan.comにご連絡ください。</span>
+          </p>
+        </div>
+
+        <p style="width: 550px;display: block;margin: 0 auto;" id="er_txt">
+          メールにてご連絡いただく際は、お手数ですが下記内容についてご記載ください。<br />
+          ・ご利用中のOS・バージョン　（例：Windows　10）<br />
+          ・ご利用中のインターネットブラウザ・バージョン　（例：InternetExplorer　Ver11.0）<br />
+          ・エラーの詳細　（どの画面においてどのような操作をされようとした時にエラーとなるか）<br />
+          ・エラーが表示されたのはいつ頃か　（例：1月17日13：00頃）<br /><br />
+          ※掲載依頼ページからお問い合わせ頂いた採用ご担当者は<a href="/requests">こちら</a>。
+        </p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="footer_content">
+        <ul id="ftr_job_lnk">
+          <li><a href="/prefecture">全ての地域の求人を見る</a></a></li>
+          <li><a href="/industry">全ての業界の求人を見る</a></a></li>
+          <li><a href="/typeofjob">全ての職種の求人を見る</a></a></li>
+        </ul>
+
+        <address>転職は【Green・グリーン】優良企業、IT系の求人情報・転職情報満載の転職サイト Copyright&copy; Atrae, Inc. All Right Reserved.</address>
+        <ul id="ftr_lnk">
+          <li><a href="/">転職サイトGreenトップ</a></li>
+          <li><a href="/contents/about">運営会社</a></li>
+          <li><a href="/contents/privacy">プライバシーポリシー</a></li>
+          <li><a href="/contents/terms">利用規約</a></li>
+          <li><a href="/contents/sitemap">サイトマップ</a></li>
+          <li><a href="/policies/faq">よくある質問</a></li>
+          <li><a href="/requests">企業の採用担当者様</a></li>
+          <li><a href="/requests">成功報酬 求人</a></li>
+          <li><a href="/profiles/fin">退会</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9233028-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+</html>

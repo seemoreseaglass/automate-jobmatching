@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=utf-8
+Date: Tue, 01 Aug 2023 10:24:01 GMT
+Server: nginx
+Vary: Accept-Encoding
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Etag: W/"a6c6ee4d374287ee3829f7073aa4b8d9"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: bb701c90-53fb-435b-8c53-89801c321dd1
+X-Runtime: 0.277982
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 6b5ed72af06c392d3a24305474d937d8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT57-C4
+X-Amz-Cf-Id: FhH_vywoeLaHyced07BEj21XXagRgGSLM2T77Z6cESsSsHo_cCQWNQ==

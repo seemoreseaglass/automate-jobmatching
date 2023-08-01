@@ -1,0 +1,7 @@
+Content-Type: application/x-www-form-urlencoded
+Referer: https://www.green-japan.com/login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.9.0 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Cookie: within_24h_access=true; last_favorites_read_at=2023-08-01+19%3A28%3A14+%2B0900; _session_id=ce3bc473a4ecbdcc81940d17d7f2bcfe

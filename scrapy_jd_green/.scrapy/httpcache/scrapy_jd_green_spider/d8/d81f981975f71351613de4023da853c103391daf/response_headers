@@ -1,0 +1,21 @@
+Content-Type: text/html; charset=utf-8
+Date: Tue, 01 Aug 2023 10:28:14 GMT
+Server: nginx
+Vary: Accept-Encoding
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Etag: W/"5daefc03d64c4c0d98f93ce0f10d9740"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: within_24h_access=true; path=/; expires=Wed, 02 Aug 2023 10:28:14 GMT; SameSite=None; secure
+Set-Cookie: last_favorites_read_at=2023-08-01+19%3A28%3A14+%2B0900; path=/; SameSite=None; secure
+Set-Cookie: _session_id=ce3bc473a4ecbdcc81940d17d7f2bcfe; path=/; expires=Sat, 01 Aug 2043 10:28:14 GMT; secure; HttpOnly; SameSite=None
+X-Request-Id: 48673b26-1be3-48c6-a94b-677adcd6c21a
+X-Runtime: 0.026583
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 d947c63dfd9d1ccbe9f338254272c65e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT57-P2
+X-Amz-Cf-Id: 5Vtmw0Vr6nzvqFT_6KEvcqwIZXpMCwuN-hqlq5yWRtMkJkX0OWPI7A==
