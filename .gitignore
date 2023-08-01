@@ -13,3 +13,6 @@ glove.42B.300d.txt
 
 # config.json
 scrapy_jd_green/scrapy_jd_green/config.json
+
+# scrapy log
+scrapy_jd_green/.scrapy/
