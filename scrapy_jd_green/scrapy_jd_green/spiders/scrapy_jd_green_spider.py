@@ -1,4 +1,5 @@
 import scrapy
+from scrapy.http import FormRequest
 from scrapy_jd_green.items import JobDescription
 import json
 
@@ -17,26 +18,32 @@ class ScrapyJdGreenSpiderSpider(scrapy.Spider):
         """
         Start requests with login info
         """
-        return [scrapy.Request("https://www.green-japan.com/login", callback=self.fetch_authenticity_token)]
+        login_url = "https://www.green-japan.com/login"
+        # Start the login page request
+        return [scrapy.Request(login_url, callback=self.login)]
 
-    def fetch_authenticity_token(self, response):
+    def login(self, response):
         """
-        Fetch the authenticity token from the login page
+        Handle login
         """
         # Fetch the authenticity token
         authenticity_token = response.css("input[name='authenticity_token']::attr(value)").get()
         print(authenticity_token)
         # Create a form data dictionary with the required information
         formdata = {
+            'utf8': '✓',
             'authenticity_token': authenticity_token,
+            'target_url': 'https://www.green-japan.com/',
             'user[mail]': email,
-            'user[password]': password
+            'user[password]': password,
+            'commit': 'ログイン'
         }
         # Submit a POST request to the login page
-        return [scrapy.FormRequest("https://www.green-japan.com/login", formdata=formdata, callback=self.logged_in)]
+        return FormRequest.from_response(response, formdata=formdata, callback=self.start_scraping)
 
-    def logged_in(self, response):
+    def start_scraping(self, response):
         """
+        Start scraping
         This function is called when the login is successful.
         """
         # Check login succeed before proceeding
