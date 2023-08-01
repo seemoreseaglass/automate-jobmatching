@@ -12,4 +12,4 @@ __pycache__/
 glove.42B.300d.txt
 
 # config.json
-scrapy_jd_green/scrapy_jd_green/spiders/config.json
+scrapy_jd_green/scrapy_jd_green/config.json
