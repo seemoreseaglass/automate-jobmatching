@@ -6,10 +6,10 @@ import json
 # Read the configuration from config.json
 with open("config.json", "r") as config_file:
     config = json.load(config_file)
-email = config["email"]
-password = config["password"]
-print(email)
-print(password)
+    email = config["email"]
+    password = config["password"]
+    print(email)
+    print(password)
 
 class ScrapyJdGreenSpiderSpider(scrapy.Spider):
     name = "scrapy_jd_green_spider"
@@ -47,7 +47,7 @@ class ScrapyJdGreenSpiderSpider(scrapy.Spider):
         This function is called when the login is successful.
         """
         # Check login succeed before proceeding
-        if response.status == 302:
+        if response.status == 200:
             self.logger.info("Successfully logged in.")
             # Start scrawling
             yield scrapy.Request("https://www.green-japan.com/search_key?key=xmy3i3jpu05ojorlyysq&keyword=AI%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2", callback=self.parse_results)
