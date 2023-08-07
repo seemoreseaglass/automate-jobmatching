@@ -19,3 +19,6 @@ scrapy_jd_green/.scrapy/
 
 # test log
 test_log/
+
+# database
+scrapy_jd_green/scrapy_jd_green/scrapy_jd_green.db
