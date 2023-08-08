@@ -62,9 +62,9 @@ DOWNLOAD_DELAY = 3
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "scrapy_jd_green.pipelines.ScrapyJdGreenPipeline": 300,
-#}
+ITEM_PIPELINES = {
+    "scrapy_jd_green.pipelines.ScrapyJdGreenPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
