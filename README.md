@@ -26,10 +26,10 @@ Rank the similarity scores in descending order to find the best matches between 
 Depending on your preferences, you can set a threshold for the similarity score above which you consider the match to be significant.
 
 # Goal for each functionality
-|functionality|goal|
-|:---|:---|
-|1.1. Scrape Job Description|7/30|
-|1.2. Preprocess Job Descriptions and Company Seek Data into work embeddings|8/1|
-|1.3. Compute Cosine Similarity|8/1|
-|1.4. Rank the Scores|8/4|
-|1.5. Set a Threshold|8/4|
+|functionality|goal|goal(origin)|
+|:---|:---|:---|
+|1.1. Scrape Job Description|8/8(done)|7/30|
+|1.2. Preprocess Job Descriptions and Company Seek Data into work embeddings|8/11|8/1|
+|1.3. Compute Cosine Similarity|8/13|8/1|
+|1.4. Rank the Scores|8/13|8/4|
+|1.5. Set a Threshold|8/13|8/4|
