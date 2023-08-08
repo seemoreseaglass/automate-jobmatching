@@ -74,15 +74,16 @@ class ScrapyJdGreenSpiderSpider(scrapy.Spider):
         Parse the job description page
         """
 
-        url = response.url
-
-        company_name = response.xpath('//h6[contains(@class, "css-fw3r0w")]/text()').get()
-        job_title = response.xpath('//h1[contains(@class, "css-1bp4cqx")]/text()').get()
-        job_role = response.xpath('//span[contains(@class, "css-9iedg7")]/text()').get()
-        business_details = response.xpath('//h5[contains(@class, "css-sr5sh7") and contains(text(), "事業内容")]/following-sibling::p[contains(@class, "css-bw2zqj")]/text()').get()
-        job_description = response.xpath('//h5[contains(@class, "css-sr5sh7") and contains(text(), "仕事内容")]/following-sibling::p[contains(@class, "css-bw2zqj")]/text()').get()
-        outline = response.xpath('//p[text()="概要"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get()
-        job_requirements = response.xpath('//p[text()="概要"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get()
-        salary = response.xpath('//span[contains(text(), "万円") and contains(@class, "css-9iedg")]/text()').get()
-        job_location = response.xpath('//p[text()="勤務地"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get()
-        job_benefits = response.xpath('//p[text()="待遇・福利厚生"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get()
+        yield JobDescription(
+            url = response.url,
+            company_name = response.xpath('//h6[contains(@class, "css-fw3r0w")]/text()').get(),
+            job_title = response.xpath('//h1[contains(@class, "css-1bp4cqx")]/text()').get(),
+            job_role = response.xpath('//span[contains(@class, "css-9iedg7")]/text()').get(),
+            business_details = response.xpath('//h5[contains(@class, "css-sr5sh7") and contains(text(), "事業内容")]/following-sibling::p[contains(@class, "css-bw2zqj")]/text()').get(),
+            job_description = response.xpath('//h5[contains(@class, "css-sr5sh7") and contains(text(), "仕事内容")]/following-sibling::p[contains(@class, "css-bw2zqj")]/text()').get(),
+            outline = response.xpath('//p[text()="概要"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get(),
+            job_requirements = response.xpath('//p[text()="概要"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get(),
+            salary = response.xpath('//span[contains(text(), "万円") and contains(@class, "css-9iedg")]/text()').get(),
+            job_location = response.xpath('//p[text()="勤務地"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get(),
+            job_benefits = response.xpath('//p[text()="待遇・福利厚生"]/following-sibling::p[contains(@class, "css-abo7h2")]/text()').get(),
+        )
