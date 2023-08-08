@@ -63,7 +63,7 @@ class ScrapyJdGreenPipeline:
             # If the job description with the same url exists, skip the process
             return
         db = self.get_database()
-        db.execute("INSERT INTO dob_desc (url, company_name, job_title, job_role, business_details, job_description, outline, job_requirements, salary, job_location, job_benefits) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", (
+        db.execute("INSERT INTO job_desc (url, company_name, job_title, job_role, business_details, job_description, outline, job_requirements, salary, job_location, job_benefits) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", (
             item['url'],
             item['company_name'],
             item['job_title'],
